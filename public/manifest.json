@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AI Page Summarizer",
+  "version": "1.0.0",
+  "description": "Summarize the current page into 5 bullet points with Claude.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Summarize this page"
+  },
+  "options_page": "options.html",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://api.anthropic.com/*"]
+}
